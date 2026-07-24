@@ -1,0 +1,65 @@
+import { Experience } from '@/types';
+
+export const experiences: Experience[] = [
+  {
+    id: 'infosys',
+    company: 'Infosys Limited',
+    role: 'Associate Consultant',
+    duration: '08/2025 – Present',
+    startDate: '2025-08',
+    endDate: 'Present',
+    location: 'Bengaluru, India',
+    description:
+      'Developing enterprise Retail Platforms & Order Management Systems (OMS) using Java, Spring Boot, and Microservices Architecture.',
+    achievements: [
+      'Developed enterprise Retail Platforms & Order Management Systems (OMS) using Java, Spring Boot, Microservices Architecture, handling high-volume transactional workflows with strong focus on scalability, performance, and distributed system design',
+      'Implemented event-driven architecture using Apache Kafka, enabling real-time data processing, asynchronous communication, and improved system scalability across distributed services',
+      'Built and deployed cloud-native applications on AWS, leveraging Docker & Kubernetes for containerization and orchestration, ensuring high availability, fault tolerance, and seamless environment scaling',
+      'Designed Promotions & Loyalty integrations and contributed to CI/CD pipelines (Jenkins, Git), automating build, test, and deployment cycles to achieve faster, reliable releases and system consistency',
+      'Enhanced system reliability and observability using Grafana & Prometheus, performed production monitoring, incident management, and RCA, and applied AI-driven insights for optimization of business workflows and performance',
+    ],
+    techStack: [
+      'Java',
+      'Spring Boot',
+      'Microservices',
+      'Apache Kafka',
+      'AWS',
+      'Docker',
+      'Kubernetes',
+      'Jenkins',
+      'Git',
+      'Grafana',
+      'Prometheus',
+    ],
+  },
+  {
+    id: 'groupsoft',
+    company: 'Groupsoft US Inc. (GK Software)',
+    role: 'Associate Software Developer',
+    duration: '03/2023 – 08/2025',
+    startDate: '2023-03',
+    endDate: '2025-08',
+    location: 'Bengaluru, India',
+    description:
+      'Developed and enhanced microservices-based backend modules for Fuel and Grocery POS systems using Java, Spring Boot, Hibernate, and PostgreSQL.',
+    achievements: [
+      'Developed and enhanced microservices-based backend modules for Fuel and Grocery POS systems using Java, Spring Boot, Hibernate, and PostgreSQL, supporting scalable and reliable transaction processing',
+      'Implemented core POS features, including loyalty programs, receipt processing, coupon handling, age & quantity restrictions, and fuel prepay transactions within high-volume retail workflows',
+      'Designed and optimized REST APIs and WebSocket-based services enabling real-time transaction processing and efficient system communication',
+      'Handled high-volume transactional flows, improving performance, data consistency, and system stability through query optimization and effective backend design',
+      'Debugged production issues and contributed to performance tuning, CI/CD pipelines (Jenkins), and unit testing (JUnit, Mockito), ensuring reliable and maintainable deployments',
+    ],
+    techStack: [
+      'Java',
+      'Spring Boot',
+      'Hibernate',
+      'PostgreSQL',
+      'REST APIs',
+      'WebSockets',
+      'Jenkins',
+      'JUnit',
+      'Mockito',
+      'Microservices',
+    ],
+  },
+];
