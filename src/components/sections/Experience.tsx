@@ -182,8 +182,7 @@ export default function Experience() {
                         <img 
                           src="https://i.redd.it/iaoxv23z40za1.jpg"
                           alt="Shinchan blue uniform"
-                          className="w-full h-auto object-contain"
-                          style={{ maxHeight: '250px' }}
+                          className="w-full h-auto"
                         />
                       </div>
                     </div>
