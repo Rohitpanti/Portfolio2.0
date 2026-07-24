@@ -180,7 +180,7 @@ export default function Experience() {
                       {/* Image Container */}
                       <div className="relative rounded-xl overflow-hidden border border-white/10 bg-background/50 backdrop-blur-sm w-full">
                         <img 
-                          src="https://media.tenor.com/Z4P5r902YhQAAAAj/%E8%9C%A1%E7%AC%94%E5%B0%8F%E6%96%B0-%E5%B0%8F%E6%96%B0.gif"
+                          src="https://i.redd.it/iaoxv23z40za1.jpg"
                           alt="Shinchan blue uniform"
                           className="w-full h-auto object-cover"
                           style={{ maxHeight: '250px' }}
