@@ -155,7 +155,7 @@ export default function Experience() {
                       {/* Image Container */}
                       <div className="relative rounded-xl overflow-hidden border border-white/10 bg-background/50 backdrop-blur-sm w-full">
                         <img 
-                          src="https://media1.tenor.com/m/f2skTtL7kLwAAAAC/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0-shin-chan.gif" 
+                          src="/images/shinchan-shy.gif" 
                           alt="Shin-chan"
                           className="w-full h-auto object-cover"
                           style={{ maxHeight: '250px' }}
@@ -180,7 +180,7 @@ export default function Experience() {
                       {/* Image Container */}
                       <div className="relative rounded-xl overflow-hidden border border-white/10 bg-background/50 backdrop-blur-sm w-full">
                         <img 
-                          src="https://media.tenor.com/Z4P5r902YhQAAAAj/%E8%9C%A1%E7%AC%94%E5%B0%8F%E6%96%B0-%E5%B0%8F%E6%96%B0.gif"
+                          src="/images/shinchan-walking.gif"
                           alt="Shinchan blue uniform"
                           className="w-full h-auto object-cover"
                           style={{ maxHeight: '250px' }}

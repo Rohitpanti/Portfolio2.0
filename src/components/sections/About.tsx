@@ -109,12 +109,16 @@ export default function About() {
         </div>
       </div>
       <WalkingCharacter 
-        gifSrc="https://media.tenor.com/rcKRNgllZrwAAAAj/%E8%9C%A1%E7%AC%94%E5%B0%8F%E6%96%B0%E5%AE%B3%E7%BE%9E.gif" 
-        altText="Shinchan blushing" 
-        initial={{ right: '5%', opacity: 0 }}
-        animate={{ right: '5%', opacity: 1 }}
-        transition={{ duration: 1.5, ease: 'easeOut' }}
-        className="hidden md:flex absolute -bottom-28 z-50 items-end pointer-events-none"
+        gifSrc="/images/shinchan-shy.gif" 
+        altText="Shinchan shy"
+        initial={{ left: '100%', opacity: 0 }}
+        animate={{ left: '-20%', opacity: 1 }}
+        transition={{ 
+          duration: 18, 
+          ease: 'linear',
+          repeat: Infinity 
+        }}
+        className="absolute bottom-10 z-50 flex items-end pointer-events-none scale-x-[-1]"
       />
     </SectionTransition>
   );

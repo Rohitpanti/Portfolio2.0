@@ -96,12 +96,16 @@ export default function Education() {
 
       {/* Shin-chan walking right to left */}
       <WalkingCharacter 
-        gifSrc="https://media.tenor.com/UKkHdEwg-5IAAAAj/crayon-shin-chan.gif" 
-        altText="Shinchan walking" 
-        initial={{ right: '-30%' }}
-        animate={{ right: '120%' }}
-        transition={{ duration: 10, ease: 'linear', repeat: Infinity }}
-        className="hidden md:flex absolute -bottom-40 z-50 items-end pointer-events-none"
+        gifSrc="/images/shinchan-dance.gif" 
+        altText="Shinchan dancing"
+        initial={{ left: '100%', opacity: 0 }}
+        animate={{ left: '-20%', opacity: 1 }}
+        transition={{ 
+          duration: 20, 
+          ease: 'linear',
+          repeat: Infinity 
+        }}
+        className="absolute bottom-20 z-50 flex items-end pointer-events-none scale-x-[-1]"
       />
     </SectionTransition>
   );

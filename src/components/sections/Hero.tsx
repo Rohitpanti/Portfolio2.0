@@ -44,8 +44,8 @@ export default function Hero() {
       </AnimatePresence>
 
       <WalkingCharacter 
-        gifSrc="https://media.tenor.com/P4EihQo9m8QAAAAj/%E8%9C%A1%E7%AC%94%E5%B0%8F%E6%96%B0-%E5%B0%8F%E6%96%B0.gif" 
-        altText="Shinchan walking" 
+        gifSrc="/images/shinchan-home.gif" 
+        altText="Shinchan dancing" 
         initial={{ left: '-20%', opacity: 0 }}
         animate={{ left: '100%', opacity: 1 }}
         transition={{ 
@@ -53,7 +53,7 @@ export default function Hero() {
           ease: 'linear',
           repeat: Infinity 
         }}
-        className="hidden md:flex absolute bottom-0 z-50 items-end pointer-events-none"
+        className="absolute bottom-0 z-50 flex items-end pointer-events-none"
       />
 
       {/* 3D Scene Background */}
