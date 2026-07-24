@@ -49,8 +49,8 @@ export default function Experience() {
                 }}
                 className={`relative flex items-start mb-16 md:mb-24 ${
                   isLeft
-                    ? 'md:flex-row flex-row'
-                    : 'md:flex-row-reverse flex-row'
+                    ? 'md:flex-row flex-col'
+                    : 'md:flex-row-reverse flex-col'
                 }`}
               >
                 {/* Timeline dot */}
@@ -146,7 +146,7 @@ export default function Experience() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.5, duration: 0.6 }}
-                    className="hidden md:flex absolute right-0 top-0 bottom-0 md:w-[45%] md:pl-12 flex-col justify-center"
+                    className="flex mt-6 md:mt-0 relative md:absolute md:right-0 md:top-0 md:bottom-0 w-full md:w-[45%] md:pl-12 flex-col justify-center pl-16 md:pl-0"
                   >
                     <div className="relative w-full rounded-2xl p-1 bg-gradient-to-tr from-accent-blue/40 via-accent-purple/40 to-transparent shadow-[0_0_50px_rgba(59,130,246,0.3)] animate-pulse-slow group overflow-hidden">
                       {/* Glow Behind */}
@@ -171,7 +171,7 @@ export default function Experience() {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    className="hidden md:flex absolute left-0 top-0 bottom-0 md:w-[45%] md:pr-12 flex-col justify-center"
+                    className="flex mt-6 md:mt-0 relative md:absolute md:left-0 md:top-0 md:bottom-0 w-full md:w-[45%] md:pr-12 flex-col justify-center pl-16 md:pl-0"
                   >
                     <div className="relative w-full rounded-2xl p-1 bg-gradient-to-tr from-accent-purple/40 via-accent-blue/40 to-transparent shadow-[0_0_50px_rgba(139,92,246,0.3)] animate-pulse-slow group overflow-hidden">
                       {/* Glow Behind */}
