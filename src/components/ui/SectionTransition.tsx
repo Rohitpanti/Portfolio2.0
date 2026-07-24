@@ -66,7 +66,7 @@ export function SectionHeader({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-accent-blue font-mono text-sm mb-3 tracking-wider uppercase"
+          className={`font-mono text-sm mb-3 tracking-wider uppercase text-accent-blue w-full ${align === 'center' ? 'text-center' : 'text-left'}`}
         >
           {subtitle}
         </motion.p>

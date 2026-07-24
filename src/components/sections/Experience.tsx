@@ -25,7 +25,7 @@ export default function Experience() {
             whileInView={{ height: '100%' }}
             viewport={{ once: true }}
             transition={{ duration: 1.5, ease: 'easeInOut' }}
-            className="absolute left-4 md:left-1/2 top-0 w-[2px] origin-top shadow-[0_0_15px_rgba(59,130,246,0.8)]"
+            className="hidden md:block absolute left-4 md:left-1/2 top-0 w-[2px] origin-top shadow-[0_0_15px_rgba(59,130,246,0.8)]"
             style={{
               background:
                 'linear-gradient(to bottom, var(--accent-blue), var(--accent-purple), transparent)',
@@ -63,7 +63,7 @@ export default function Experience() {
                     type: 'spring',
                     stiffness: 300,
                   }}
-                  className="absolute left-4 md:left-1/2 -translate-x-1/2 z-10"
+                  className="hidden md:block absolute left-4 md:left-1/2 -translate-x-1/2 z-10"
                 >
                   <div className="relative flex items-center justify-center w-8 h-8 group cursor-pointer">
                     <div className="absolute inset-0 rounded-full bg-accent-blue animate-ping opacity-30" />
@@ -74,8 +74,8 @@ export default function Experience() {
 
                 {/* Card */}
                 <div
-                  className={`w-full md:w-[45%] ${
-                    isLeft ? 'pl-16 md:pl-0 md:pr-12 md:mr-auto' : 'pl-16 md:pl-12 md:ml-auto'
+                  className={`w-full md:w-[45%] flex-shrink-0 ${
+                    isLeft ? 'md:pr-12 md:mr-auto' : 'md:pl-12 md:ml-auto'
                   }`}
                 >
                   <GlassCard className="p-5 md:p-8 relative group overflow-hidden border border-white/5 hover:border-accent-blue/30 transition-colors duration-500">
@@ -146,7 +146,7 @@ export default function Experience() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.5, duration: 0.6 }}
-                    className="flex absolute left-16 right-0 md:left-auto top-0 bottom-0 md:w-[45%] md:pl-12 flex-col justify-center -z-10 md:z-auto opacity-30 md:opacity-100 pointer-events-none md:pointer-events-auto transition-opacity duration-300"
+                    className="flex relative md:absolute left-0 right-0 md:left-auto top-0 bottom-0 w-full md:w-[45%] mt-8 md:mt-0 md:pl-12 flex-col justify-center opacity-100 md:opacity-100 pointer-events-auto transition-opacity duration-300"
                   >
                     <div className="relative w-full rounded-2xl p-1 bg-gradient-to-tr from-accent-blue/40 via-accent-purple/40 to-transparent shadow-[0_0_50px_rgba(59,130,246,0.3)] animate-pulse-slow group overflow-hidden">
                       {/* Glow Behind */}
@@ -171,7 +171,7 @@ export default function Experience() {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    className="flex absolute left-16 right-0 md:right-auto md:left-0 top-0 bottom-0 md:w-[45%] md:pr-12 flex-col justify-center -z-10 md:z-auto opacity-30 md:opacity-100 pointer-events-none md:pointer-events-auto transition-opacity duration-300"
+                    className="flex relative md:absolute left-0 right-0 md:right-auto md:left-0 top-0 bottom-0 w-full md:w-[45%] mt-8 md:mt-0 md:pr-12 flex-col justify-center opacity-100 md:opacity-100 pointer-events-auto transition-opacity duration-300"
                   >
                     <div className="relative w-full rounded-2xl p-1 bg-gradient-to-tr from-accent-purple/40 via-accent-blue/40 to-transparent shadow-[0_0_50px_rgba(139,92,246,0.3)] animate-pulse-slow group overflow-hidden">
                       {/* Glow Behind */}
