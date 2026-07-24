@@ -157,7 +157,7 @@ export default function Experience() {
                         <img 
                           src="https://media1.tenor.com/m/f2skTtL7kLwAAAAC/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0-shin-chan.gif" 
                           alt="Shin-chan"
-                          className="w-full h-auto object-cover"
+                          className="w-full h-auto object-contain"
                           style={{ maxHeight: '250px' }}
                         />
                       </div>
@@ -182,7 +182,7 @@ export default function Experience() {
                         <img 
                           src="https://i.redd.it/iaoxv23z40za1.jpg"
                           alt="Shinchan blue uniform"
-                          className="w-full h-auto object-cover"
+                          className="w-full h-auto object-contain"
                           style={{ maxHeight: '250px' }}
                         />
                       </div>
