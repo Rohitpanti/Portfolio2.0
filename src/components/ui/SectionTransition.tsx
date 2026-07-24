@@ -57,6 +57,9 @@ export function SectionHeader({
       transition={{ duration: 0.6 }}
       className={`w-full mb-16 ${align === 'center' ? 'text-center' : 'text-left'}`}
     >
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        <span className="gradient-text">{title}</span>
+      </h2>
       {subtitle && (
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -68,9 +71,6 @@ export function SectionHeader({
           {subtitle}
         </motion.p>
       )}
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-        <span className="gradient-text">{title}</span>
-      </h2>
       {description && (
         <p className="text-text-secondary max-w-2xl mx-auto text-lg leading-relaxed">
           {description}
