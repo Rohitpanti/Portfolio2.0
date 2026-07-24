@@ -44,7 +44,7 @@ export default function Hero() {
       </AnimatePresence>
 
       <WalkingCharacter 
-        gifSrc="/images/shinchan-home.gif" 
+        gifSrc="https://media.tenor.com/-RYUs_Icgw4AAAAj/crayon-shin-chan-crayon-shin-chan-dance.gif" 
         altText="Shinchan dancing" 
         initial={{ left: '-20%', opacity: 0 }}
         animate={{ left: '100%', opacity: 1 }}
