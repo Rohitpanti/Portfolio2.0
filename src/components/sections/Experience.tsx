@@ -47,10 +47,10 @@ export default function Experience() {
                   duration: 0.8,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className={`relative flex items-start mb-16 md:mb-24 ${
+                className={`relative flex items-start mb-16 md:mb-24 flex-col ${
                   isLeft
-                    ? 'md:flex-row flex-row'
-                    : 'md:flex-row-reverse flex-row'
+                    ? 'md:flex-row'
+                    : 'md:flex-row-reverse'
                 }`}
               >
                 {/* Timeline dot */}
@@ -74,7 +74,7 @@ export default function Experience() {
 
                 {/* Card */}
                 <div
-                  className={`w-full md:w-[45%] flex-shrink-0 ${
+                  className={`w-full md:w-[45%] flex-shrink-0 relative z-20 ${
                     isLeft ? 'md:pr-12 md:mr-auto' : 'md:pl-12 md:ml-auto'
                   }`}
                 >
@@ -146,7 +146,7 @@ export default function Experience() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.5, duration: 0.6 }}
-                    className="flex relative md:absolute left-0 right-0 md:left-auto top-0 bottom-0 w-full md:w-[45%] mt-8 md:mt-0 md:pl-12 flex-col justify-center opacity-100 md:opacity-100 pointer-events-auto transition-opacity duration-300"
+                    className="flex relative md:absolute left-0 right-0 md:left-auto top-0 bottom-0 w-full md:w-[45%] mt-8 md:mt-0 md:pl-12 flex-col justify-center opacity-100 pointer-events-auto transition-opacity duration-300 z-10"
                   >
                     <div className="relative w-full rounded-2xl p-1 bg-gradient-to-tr from-accent-blue/40 via-accent-purple/40 to-transparent shadow-[0_0_50px_rgba(59,130,246,0.3)] animate-pulse-slow group overflow-hidden">
                       {/* Glow Behind */}
@@ -171,7 +171,7 @@ export default function Experience() {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    className="flex relative md:absolute left-0 right-0 md:right-auto md:left-0 top-0 bottom-0 w-full md:w-[45%] mt-8 md:mt-0 md:pr-12 flex-col justify-center opacity-100 md:opacity-100 pointer-events-auto transition-opacity duration-300"
+                    className="flex relative md:absolute left-0 right-0 md:right-auto md:left-0 top-0 bottom-0 w-full md:w-[45%] mt-8 md:mt-0 md:pr-12 flex-col justify-center opacity-100 pointer-events-auto transition-opacity duration-300 z-10"
                   >
                     <div className="relative w-full rounded-2xl p-1 bg-gradient-to-tr from-accent-purple/40 via-accent-blue/40 to-transparent shadow-[0_0_50px_rgba(139,92,246,0.3)] animate-pulse-slow group overflow-hidden">
                       {/* Glow Behind */}
